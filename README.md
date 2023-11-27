@@ -58,3 +58,13 @@ CREATE VIEW TODAS_LOCACOES AS
 
 -- Seleção de todos os registros da view Todas_locacoes --
 SELECT * FROM TODAS_LOCACOES;
+
+## ETAPA 4 -
+
+-- IMAGENS --
+
+![FT1](https://github.com/RodrigoMaMoraes/BD_NORMALIZACAO/blob/main/locacao/ft1_locacao.png)
+
+![FT2](https://github.com/RodrigoMaMoraes/BD_NORMALIZACAO/blob/main/locacao/ft2_locacao.png)
+
+
