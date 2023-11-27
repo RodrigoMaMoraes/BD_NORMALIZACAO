@@ -47,7 +47,11 @@ INSERT INTO LOCACAO (VEICULO_NOME, COR, PLACA, DIARIA, CPF_CLIENTE, DIA, TOTAL) 
 -- Seleção de todos os registros da tabela locacao --
 SELECT * FROM LOCACAO;
 
+
+## ETAPA 3 -
+
 -- Criação da view Todas_locacoes -- 
+
 CREATE VIEW TODAS_LOCACOES AS
     SELECT * FROM LOCACAO
     JOIN CLIENTE ON CLIENTE.CPF = LOCACAO.CPF_CLIENTE;
