@@ -1,7 +1,9 @@
 # BD_NORMALIZACAO
 
 ## ETAPA 1 -
+
 -- Tabela para armazenar informações sobre locações --
+
 CREATE TABLE LOCACAO (
     COD_LOCACAO INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     VEICULO_NOME VARCHAR(123) NOT NULL,
@@ -15,6 +17,7 @@ CREATE TABLE LOCACAO (
 );
 
 -- Tabela para armazenar informações sobre clientes --
+
 CREATE TABLE CLIENTE (
     CPF VARCHAR(123) PRIMARY KEY NOT NULL,
     NOME VARCHAR(123) NOT NULL,
@@ -22,7 +25,9 @@ CREATE TABLE CLIENTE (
 );
 
 ## ETAPA 2 -
+
 -- Inserção de dados na tabela cliente --
+
 INSERT INTO CLIENTE (CPF, NOME, NASCIMENTO) VALUES ('123.456.789-01', 'Ariano Sussuna', '2022-05-21');
 INSERT INTO CLIENTE (CPF, NOME, NASCIMENTO) VALUES ('543.765.987-23', 'Grace Hopper', '2002-04-29');
 INSERT INTO CLIENTE (CPF, NOME, NASCIMENTO) VALUES ('987.654.321-90', 'Richard Feynman', '2001-10-12');
